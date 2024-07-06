@@ -3,7 +3,6 @@ document.querySelector("p").classList.add("invisible");
 
 
 
-
 document.querySelector("img").addEventListener("click", pageResponse);
 
 
