@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./Images/Image0.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #307067;
+    text-align: center;
+}
+
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #307067;
+    text-align: center;
+}
+
+
+.content{
+    border: 2px solid #8FC4BC;
+    border-radius: 16px;
+    padding: 64px 49px;
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    width: 40%;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.60);
+    backdrop-filter: blur(2.5px);
+    margin: auto;
+}
+
+.input{
+    border: 2px solid #307067;
+    border-radius: 24px;
+    padding: 36px 48px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+input::placeholder{
+    color: #427D75;
+}
+
+input:focus{
+    outline: none;
+    color: #1c5049;
+}
+
+input:focus::placeholder{
+    color: transparent;
+}
+
+input, select, textarea{
+    color: #1c5049;
+}
+
+.default{
+    border: none;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.invisible{
+    visibility: hidden;
+}
