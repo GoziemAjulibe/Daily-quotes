@@ -35,7 +35,7 @@ h1{
 .content{
     border: 2px solid #8FC4BC;
     border-radius: 16px;
-    padding: 64px 49px;
+    padding: 64px 48px;
     display: flex;
     flex-direction: column;
     gap: 78px;
@@ -86,3 +86,61 @@ input, select, textarea{
 .invisible{
     visibility: hidden;
 }
+
+
+@media  (max-width: 860px) { 
+
+    h1{
+        font-size: 32px;
+    }
+
+
+    p{
+        font-size: 20px;
+    }
+
+    .content{
+        width: 50%;
+    }
+
+    .input{
+        padding: 24px 32px;
+        width: 90%;
+        border-radius: 16px;
+    }
+
+    .default{
+        font-size: 18px;
+    }
+
+}
+
+@media  (max-width: 555px) { 
+
+    h1{
+        font-size: 22px;
+    }
+
+
+    p{
+        font-size: 16px;
+    }
+
+    .content{
+        width: 60%;
+        gap: 40px;
+        padding: 32px 32px;
+    }
+
+    .input{
+        padding: 16px 20px;
+        width: 90%;
+        border-radius: 12px;
+    }
+
+    .default{
+        font-size: 14px;
+    }
+
+}
+
