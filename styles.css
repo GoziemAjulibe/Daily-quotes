@@ -127,9 +127,9 @@ input, select, textarea{
     }
 
     .content{
-        width: 60%;
+        width: 70%;
         gap: 40px;
-        padding: 32px 32px;
+        padding: 24px 32px;
     }
 
     .input{
